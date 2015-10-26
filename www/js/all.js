@@ -6,7 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 'use strict';
 
-angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers']).run(["$ionicPlatform", function ($ionicPlatform) {
+angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers', 'users.controller']).run(["$ionicPlatform", function ($ionicPlatform) {
     $ionicPlatform.ready(function () {
 
         // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -27,8 +27,8 @@ angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers']).run(["
         templateUrl: 'templates/menu.html',
         controller: 'AppCtrl',
         resolve: {
-            user: ["Users", function user(Users) {
-                return Users.get();
+            user: ["ProfileService", function user(ProfileService) {
+                return ProfileService.get();
             }]
         }
     }).state('intro', {
@@ -58,10 +58,18 @@ angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers']).run(["
                 templateUrl: 'templates/profile.html',
                 controller: 'ProfileCtrl',
                 resolve: {
-                    user: ["Users", function user(Users) {
-                        return Users.get();
+                    user: ["ProfileService", function user(ProfileService) {
+                        return ProfileService.get();
                     }]
                 }
+            }
+        }
+    }).state('app.users', {
+        url: '/users',
+        views: {
+            'menuContent': {
+                templateUrl: 'templates/users.html',
+                controller: 'UsersCtrl'
             }
         }
     }).state('app.login', {
@@ -132,7 +140,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
         });
 
         navigator.geolocation.getCurrentPosition(function (pos) {
-            $scope.map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+            $scope.map.setCenter(new window.google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
             $scope.loading.hide();
         }, function (error) {
             alert('Unable to get location: ' + error.message);
@@ -144,7 +152,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     };
 
     ionicMaterialInk.displayEffect();
-}]).controller('ProfileCtrl', ["$scope", "$ionicHistory", "$state", "ionicMaterialInk", "Users", "user", function ($scope, $ionicHistory, $state, ionicMaterialInk, Users, user) {
+}]).controller('ProfileCtrl', ["$scope", "$ionicHistory", "$state", "ionicMaterialInk", "ProfileService", "user", function ($scope, $ionicHistory, $state, ionicMaterialInk, ProfileService, user) {
     console.log($ionicHistory.currentView());
 
     if (!user) {
@@ -157,16 +165,16 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     };
 
     $scope.update = function () {
-        Users.attr('fiestez', $scope.data.fiestez);
+        ProfileService.attr('fiestez', $scope.data.fiestez);
     };
 
     $scope.logout = function () {
-        Users.logout();
+        ProfileService.logout();
         $state.go('intro');
     };
 
     $scope.$on('$ionicView.beforeLeave', function () {
-        Users.saveToDB();
+        ProfileService.saveToDB();
     });
 
     ionicMaterialInk.displayEffect();
@@ -181,8 +189,8 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
         }
     };
     ionicMaterialInk.displayEffect();
-}]).controller('IntroCtrl', ["$scope", "$ionicSlideBoxDelegate", "$ionicHistory", "$state", "AuthService", "Users", "ionicMaterialInk", function ($scope, $ionicSlideBoxDelegate, $ionicHistory, $state, AuthService, Users, ionicMaterialInk) {
-    if (Users.get()) {
+}]).controller('IntroCtrl', ["$scope", "$ionicSlideBoxDelegate", "$ionicHistory", "$state", "AuthService", "ProfileService", "ionicMaterialInk", function ($scope, $ionicSlideBoxDelegate, $ionicHistory, $state, AuthService, ProfileService, ionicMaterialInk) {
+    if (ProfileService.get()) {
         $ionicHistory.nextViewOptions({
             historyRoot: true
         });
@@ -217,7 +225,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
                 console.log('Not logged in yet');
                 login();
             } else {
-                Users.save(authData);
+                ProfileService.save(authData);
                 $state.go('app.profile');
             }
         });
@@ -230,6 +238,29 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     ionicMaterialInk.displayEffect();
 }]);
 "use strict";
+'use strict';
+
+angular.module('users.controller', ['firebase', 'users.service']).controller('UsersCtrl', ["$scope", "UsersService", "ionicMaterialInk", "$ionicTabsDelegate", function ($scope, UsersService, ionicMaterialInk, $ionicTabsDelegate) {
+    $scope.users = [];
+
+    $scope.following = function () {
+        /*$ionicTabsDelegate.select(0);
+        $scope.users = [];*/
+        UsersService.following();
+    };
+
+    $scope.followers = function () {
+        /*$ionicTabsDelegate.select(1);
+        $scope.users = [];*/
+        UsersService.followers();
+    };
+
+    $scope.$on('userAdded', function (event, user) {
+        $scope.users.push(user);
+    });
+
+    ionicMaterialInk.displayEffect();
+}]);
 'use strict';
 
 angular.module('events.service', ['firebase']).factory('EventsService', ["$firebaseArray", "$firebaseObject", function ($firebaseArray, $firebaseObject) {
@@ -249,55 +280,7 @@ angular.module('events.service', ['firebase']).factory('EventsService', ["$fireb
 }]);
 'use strict';
 
-angular.module('swirl.services', ['ngResource', 'ionic.utils', 'ionic.users', 'firebase']).factory('ItemsService', ["$firebaseArray", function ($firebaseArray) {
-    var itemsRef = new Firebase('https://shining-torch-3644.firebaseio.com/items');
-    return $firebaseArray(itemsRef);
-}]).factory('AuthService', ["$firebaseAuth", function ($firebaseAuth) {
-    var usersRef = new Firebase('https://shining-torch-3644.firebaseio.com/users');
-    return $firebaseAuth(usersRef);
-}]).factory('DB', function () {
-    return new Firebase('https://shining-torch-3644.firebaseio.com/');
-}).factory('Maps', ["$compile", function ($compile) {
-    function initialize($scope) {
-        var myLatlng = new google.maps.LatLng(43.07493, -89.381388);
-
-        var mapOptions = {
-            center: myLatlng,
-            zoom: 16,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById('map'), mapOptions);
-
-        //Marker + infowindow + angularjs compiled ng-click
-        var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
-        var compiled = $compile(contentString)($scope);
-
-        var infowindow = new google.maps.InfoWindow({
-            content: compiled[0]
-        });
-
-        var marker = new google.maps.Marker({
-            position: myLatlng,
-            map: map,
-            title: 'Uluru (Ayers Rock)'
-        });
-
-        google.maps.event.addListener(marker, 'click', function () {
-            infowindow.open(map, marker);
-        });
-
-        return map;
-    }
-
-    //google.maps.event.addDomListener(window, 'load', initialize);
-
-    return {
-        initialize: initialize
-    };
-}]);
-'use strict';
-
-angular.module('ionic.users', []).factory('Users', ["$localStorage", function ($localStorage) {
+angular.module('profile.service', []).factory('ProfileService', ["$localStorage", function ($localStorage) {
     var ref = new Firebase('https://shining-torch-3644.firebaseio.com/users'),
         user;
 
@@ -387,6 +370,91 @@ angular.module('ionic.users', []).factory('Users', ["$localStorage", function ($
         logout: logout,
         save: save,
         saveToDB: saveToDB
+    };
+}]);
+'use strict';
+
+angular.module('swirl.services', ['ngResource', 'ionic.utils', 'profile.service', 'firebase']).factory('ItemsService', ["$firebaseArray", function ($firebaseArray) {
+    var itemsRef = new Firebase('https://shining-torch-3644.firebaseio.com/items');
+    return $firebaseArray(itemsRef);
+}]).factory('AuthService', ["$firebaseAuth", function ($firebaseAuth) {
+    var usersRef = new Firebase('https://shining-torch-3644.firebaseio.com/users');
+    return $firebaseAuth(usersRef);
+}]).factory('DB', function () {
+    return new Firebase('https://shining-torch-3644.firebaseio.com/');
+}).factory('Maps', ["$compile", function ($compile) {
+    function initialize($scope) {
+        var myLatlng = new window.google.maps.LatLng(43.07493, -89.381388);
+
+        var mapOptions = {
+            center: myLatlng,
+            zoom: 16,
+            mapTypeId: window.google.maps.MapTypeId.ROADMAP
+        };
+        var map = new window.google.maps.Map(document.getElementById('map'), mapOptions);
+
+        //Marker + infowindow + angularjs compiled ng-click
+        var contentString = "<div><a ng-click='clickTest()'>Click me!</a></div>";
+        var compiled = $compile(contentString)($scope);
+
+        var infowindow = new window.google.maps.InfoWindow({
+            content: compiled[0]
+        });
+
+        var marker = new window.google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Uluru (Ayers Rock)'
+        });
+
+        window.google.maps.event.addListener(marker, 'click', function () {
+            infowindow.open(map, marker);
+        });
+
+        return map;
+    }
+
+    return {
+        initialize: initialize
+    };
+}]);
+'use strict';
+
+angular.module('users.service', ['ionic.utils', 'firebase', 'profile.service']).factory('UsersService', ["$firebaseArray", "$localStorage", function ($firebaseArray, $localStorage) {
+    var uid = $localStorage.get('uid'),
+        ref = new Firebase('https://shining-torch-3644.firebaseio.com/');
+
+    // Just for testing purposes
+    function getAll() {
+        return $firebaseArray(ref.child('users'));
+    }
+
+    function followers() {
+        // fetch a list of Mary's groups
+        ref.child('users/' + uid + '/followers').on('child_added', function (snapshot) {
+            // for each group, fetch the name and print it
+            var userKey = snapshot.key();
+            ref.child('users/' + userKey).once('value', function (snapshot) {
+                console.log(snapshot.val() + ' follows me');
+            });
+        });
+    }
+
+    function following() {
+        ref.child('users/' + uid + '/following').on('child_added', function (snapshot) {
+            // for each group, fetch the name and print it
+            var userKey = snapshot.key();
+            ref.child('users/' + userKey).once('value', function (snapshot) {
+                console.log('I\'m following: ' + snapshot.val());
+            });
+        });
+        /*return $firebaseArray(ref.child(uid).child('followers'));*/
+    }
+
+    return {
+        getAll: getAll,
+        followers: followers,
+        following: following
     };
 }]);
 'use strict';

@@ -10,7 +10,8 @@
 				/*"lib",*/
 				"platforms",
 				"resources",
-				"hooks"
+				"hooks",
+				"tests/coverage"
 			],
 		}
 	],

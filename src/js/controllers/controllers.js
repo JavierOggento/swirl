@@ -52,7 +52,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
         });
 
         navigator.geolocation.getCurrentPosition(function(pos) {
-            $scope.map.setCenter(new google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
+            $scope.map.setCenter(new window.google.maps.LatLng(pos.coords.latitude, pos.coords.longitude));
             $scope.loading.hide();
         }, function(error) {
             alert('Unable to get location: ' + error.message);
@@ -66,7 +66,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     ionicMaterialInk.displayEffect();
 })
 
-.controller('ProfileCtrl', function($scope, $ionicHistory, $state, ionicMaterialInk, Users, user) {
+.controller('ProfileCtrl', function($scope, $ionicHistory, $state, ionicMaterialInk, ProfileService, user) {
     console.log($ionicHistory.currentView());
 
     if (!user) {
@@ -79,16 +79,16 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     };
 
     $scope.update = function() {
-        Users.attr('fiestez', $scope.data.fiestez);
+        ProfileService.attr('fiestez', $scope.data.fiestez);
     };
 
     $scope.logout = function() {
-        Users.logout();
+        ProfileService.logout();
         $state.go('intro');
     };
 
     $scope.$on('$ionicView.beforeLeave', function() {
-        Users.saveToDB();
+        ProfileService.saveToDB();
     });
 
     ionicMaterialInk.displayEffect();
@@ -107,8 +107,8 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
     ionicMaterialInk.displayEffect();
 })
 
-.controller('IntroCtrl', function($scope, $ionicSlideBoxDelegate, $ionicHistory, $state, AuthService, Users, ionicMaterialInk) {
-    if (Users.get()) {
+.controller('IntroCtrl', function($scope, $ionicSlideBoxDelegate, $ionicHistory, $state, AuthService, ProfileService, ionicMaterialInk) {
+    if (ProfileService.get()) {
         $ionicHistory.nextViewOptions({
             historyRoot: true
         });
@@ -143,7 +143,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
                 console.log('Not logged in yet');
                 login();
             } else {
-                Users.save(authData);
+                ProfileService.save(authData);
                 $state.go('app.profile');
             }
         });

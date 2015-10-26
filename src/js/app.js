@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers'])
+angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers', 'users.controller'])
 
 .run(function($ionicPlatform) {
     $ionicPlatform.ready(function() {
@@ -32,8 +32,8 @@ angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers'])
       templateUrl: 'templates/menu.html',
       controller: 'AppCtrl',
       resolve: {
-          user: function(Users) {
-              return Users.get();
+          user: function(ProfileService) {
+              return ProfileService.get();
           }
       }
   })
@@ -71,12 +71,22 @@ angular.module('swirl', ['ionic', 'swirl.services', 'swirl.controllers'])
             templateUrl: 'templates/profile.html',
             controller: 'ProfileCtrl',
             resolve: {
-                user: function(Users) {
-                    return Users.get();
+                user: function(ProfileService) {
+                    return ProfileService.get();
                 }
             }
         }
     }
+  })
+
+  .state('app.users', {
+      url: '/users',
+      views: {
+          'menuContent': {
+              templateUrl: 'templates/users.html',
+              controller: 'UsersCtrl'
+          }
+      }
   })
 
   .state('app.login', {

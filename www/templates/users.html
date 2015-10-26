@@ -1,0 +1,18 @@
+<ion-view view-title="Contactos">
+    <ion-tabs class="tabs-top static tabs-energized">
+        <ion-tab title="Siguiendo" on-select="following()"></ion-tab>
+        <ion-tab title="Seguidores" on-select="followers()"></ion-tab>
+        <ion-tab title="Buscar"></ion-tab>
+    </ion-tabs>
+    <ion-content class="has-tabs-top">
+        <ion-list ng-repeat="user in users">
+            <ion-item class="item-avatar">
+                <img src="{{user.profileImage}}">
+                <h2>{{user.firstName}} {{user.lastName}}</h2>
+                <p>Status</p>
+                <!-- <span>Vie</span> -->
+            </ion-item>
+        </ion-list>
+    </ion-content>
+    <button class="button button-fab button-fab-bottom-right button-assertive icon ion-plus"></button>
+</ion-view>

@@ -1,6 +1,6 @@
-angular.module('ionic.users', [])
+angular.module('profile.service', [])
 
-.factory('Users', function($localStorage) {
+.factory('ProfileService', function($localStorage) {
     var ref = new Firebase('https://shining-torch-3644.firebaseio.com/users'),
         user;
 

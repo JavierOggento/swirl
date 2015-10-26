@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"$root",
+				"$rootScope	AngularJS"
+			],
+			[
+				"prof",
+				"profile"
+			],
+			[
+				"folo",
+				"following〔function〕"
+			],
+			[
+				"fol",
+				"following〔function〕"
+			],
+			[
+				"fo",
+				"followers"
+			],
+			[
 				"ionic",
 				"ionicSlideBoxDelegate"
 			],
@@ -388,14 +408,6 @@
 				"followersNoAutorizados	(local, instance)"
 			],
 			[
-				"folo",
-				"followersActualizados	(local, instance)"
-			],
-			[
-				"fol",
-				"followersActualizados	(local, instance)"
-			],
-			[
 				"lis",
 				"listaFollowersIDs	(local, instance)"
 			],
@@ -502,98 +514,24 @@
 			[
 				"id",
 				"idsDiscosAgregadas	(local, instance)"
-			],
-			[
-				"max",
-				"max_id_str	(local, instance)"
-			],
-			[
-				"ge",
-				"generosMusicalesValidos	(attribute, instance)"
-			],
-			[
-				"suge",
-				"sugerenciasTemp	(local, instance)"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "src/js/controllers/controllers.js",
-			"settings":
-			{
-				"buffer_size": 3505,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/js/services/services.js",
-			"settings":
-			{
-				"buffer_size": 865,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "tests/karma.conf.js",
-			"settings":
-			{
-				"buffer_size": 2749,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "------------------------\nMulti Part Key Conflicts\n------------------------\n-------------------------------------\nKey Conflicts (Only direct conflicts)\n-------------------------------------\n [\"]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|>|$)\"}, {\"key\": \"preceding_text\", \"operator\": \"not_regex_contains\", \"match_all\": true, \"operand\": \"[\\\"a-zA-Z0-9_]$\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n   move                                     Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\"\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n [#]\n   emmet_insert_attribute                   Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -source -meta.tag.template.value.twig\"}, {\"key\": \"setting.auto_id_class\", \"operator\": \"equal\", \"operand\": true}]\n   insert_snippet                           Ruby                  [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"(string.quoted.double.ruby | string.interpolated.ruby) - string source\"}]\n [']\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|>|$)\"}, {\"key\": \"preceding_text\", \"operator\": \"not_regex_contains\", \"match_all\": true, \"operand\": \"['a-zA-Z0-9_]$\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n   move                                     Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^'\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n [(]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|;|\\\\}|$)\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n [[]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|;|\\\\}|$)\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n [alt+/]\n   auto_complete                            Default               \n   replace_completion_with_auto_complete    Default               [{\"key\": \"last_command\", \"operator\": \"equal\", \"operand\": \"insert_best_completion\"}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"operand\": false}, {\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}]\n [alt+ctrl+enter]\n   replace_all                              Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   expand_as_you_type                       Emmet                 [{\"key\": \"setting.is_widget\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"emmet_action_enabled.expand_as_you_type\", \"match_all\": true}]\n [alt+ctrl+space]\n   insert_path                              FuzzyFilePath         \n   insert_path                              FuzzyFilePath         \n [alt+enter]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n   ffp_goto_file                            FuzzyFilePath         \n   ffp_goto_file                            FuzzyFilePath         \n [alt+left]\n   move                                     Default               \n   prev_view                                User                  \n [alt+right]\n   move                                     Default               \n   next_view                                User                  \n [alt+shift+down]\n   select_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.decrement_number_by_10\"}]\n [alt+shift+up]\n   select_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.increment_number_by_10\"}]\n [backspace]\n   left_delete                              Default               \n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\"$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\"\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"'$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^'\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\($\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\)\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\[$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\]\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   run_macro_file                           CSS                   [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css - meta.selector.css\"}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \":$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^;\"}]\n [ctrl+']\n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.encode_decode_data_url\"}]\n   expand_selection_to_quotes               Expand Selection to Quotes  \n [ctrl+down]\n   scroll_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.decrement_number_by_1\"}]\n [ctrl+e]\n   slurp_find_string                        Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.expand_abbreviation\"}]\n [ctrl+shift+;]\n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.remove_tag\"}]\n   run_macro_file                           User                  \n [ctrl+shift+backspace]\n   left_delete                              Default               \n   run_macro_file                           Default               \n [ctrl+shift+h]\n   replace_next                             Default               \n   htmlprettify                             HTML-CSS-JS Prettify  \n   format_javascript                        JSCS-Formatter        \n [ctrl+shift+r]\n   goto_symbol_in_project                   Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.reflect_css_value\"}]\n [ctrl+shift+space]\n   expand_selection                         Default               \n   code_intel_auto_complete                 CodeComplice          \n   insert_path                              FuzzyFilePath         \n   insert_path                              FuzzyFilePath         \n [ctrl+shift+u]\n   soft_redo                                Default               \n   update_as_you_type                       Emmet                 [{\"key\": \"setting.is_widget\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"emmet_action_enabled.update_as_you_type\", \"match_all\": true}]\n [ctrl+u]\n   soft_undo                                Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.update_image_size\"}]\n [ctrl+up]\n   scroll_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.increment_number_by_1\"}]\n [enter]\n   insert                                   Default               \n   commit_completion                        Default               [{\"key\": \"auto_complete_visible\"}, {\"key\": \"setting.auto_complete_commit_on_tab\", \"operand\": false}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair\"}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}]\n   find_next                                Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_next                                Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   hide_panel                               Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n   insert_snippet                           Emmet                 [{\"key\": \"selector\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair.html, meta.scope.between-tag-pair.xml\"}, {\"key\": \"auto_complete_visible\", \"match_all\": true, \"operand\": false}, {\"key\": \"clear_fields_on_enter_key\", \"match_all\": true}, {\"key\": \"setting.disable_formatted_linebreak\", \"match_all\": true, \"operand\": false}]\n [escape]\n   single_selection                         Default               [{\"key\": \"num_selections\", \"operator\": \"not_equal\", \"operand\": 1}]\n   clear_fields                             Default               [{\"key\": \"has_next_field\", \"operator\": \"equal\", \"operand\": true}]\n   clear_fields                             Default               [{\"key\": \"has_prev_field\", \"operator\": \"equal\", \"operand\": true}]\n   hide_panel                               Default               [{\"key\": \"panel_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_overlay                             Default               [{\"key\": \"overlay_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_popup                               Default               [{\"key\": \"popup_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_auto_complete                       Default               [{\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"operand\": true}]\n [shift+enter]\n   insert                                   Default               \n   run_macro_file                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair\"}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n [shift+tab]\n   insert                                   Default               \n   unindent                                 Default               [{\"key\": \"setting.shift_tab_unindent\", \"operator\": \"equal\", \"operand\": true}]\n   unindent                                 Default               [{\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"operand\": \"^[\\t ]*\"}]\n   unindent                                 Default               [{\"key\": \"text\", \"operator\": \"regex_contains\", \"operand\": \"\\n\"}]\n   prev_field                               Default               [{\"key\": \"has_prev_field\", \"operator\": \"equal\", \"operand\": true}]\n [tab]\n   insert_best_completion                   Default               \n   insert_best_completion                   Default               [{\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \".*[^0-9]$\"}]\n   replace_completion_with_next_completion  Default               [{\"key\": \"last_command\", \"operator\": \"equal\", \"operand\": \"insert_best_completion\"}, {\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}]\n   reindent                                 Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}, {\"key\": \"following_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}]\n   indent                                   Default               [{\"key\": \"text\", \"operator\": \"regex_contains\", \"operand\": \"\\n\"}]\n   next_field                               Default               [{\"key\": \"has_next_field\", \"operator\": \"equal\", \"operand\": true}]\n   commit_completion                        Default               [{\"key\": \"auto_complete_visible\"}, {\"key\": \"setting.auto_complete_commit_on_tab\"}]\n   expand_abbreviation_by_tab               Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"storage.type.templatetag.django\"}, {\"key\": \"selection_empty\", \"match_all\": true}, {\"key\": \"has_next_field\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"setting.disable_tab_abbreviations\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"is_abbreviation\", \"match_all\": true}]\n   expand_abbreviation_by_tab               Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"storage.type.templatetag.django\"}, {\"key\": \"selection_empty\", \"match_all\": true}, {\"key\": \"has_next_field\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"setting.disable_tab_abbreviations_on_auto_complete\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"is_abbreviation\", \"match_all\": true}]\n [{]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|$)\"}]\n   wrap_block                               Default               [{\"key\": \"indented_block\", \"match_all\": true}, {\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n",
-			"settings":
-			{
-				"buffer_size": 21014,
-				"line_ending": "Unix",
-				"name": "All Key Conflicts",
-				"scratch": true
-			}
-		},
-		{
-			"contents": "describe('Controllers', function() {\n    var scope,\n        ionicMaterialInk = {\n            displayEffect: function() {\n                return;\n            }\n        },\n        Events;\n\n    // load the controller's module\n    beforeEach(module('swirl.controllers'));\n\n    beforeEach(inject(function($rootScope, $controller) {\n        scope = $rootScope.$new();\n        $controller('EventsCtrl', {\n            $scope: scope,\n            Events: Events,\n            ionicMaterialInk: ionicMaterialInk\n        });\n    }));\n\n    // tests start here\n    it('should have events defined', function() {\n        expect(scope.veents).toBeDefined();\n    });\n});",
-			"file": "tests/controllers/eventsController.tests.js",
-			"file_size": 651,
-			"file_write_time": 130890091371346759,
-			"settings":
-			{
-				"buffer_size": 651,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "%28function%28%29%7Blocation.href%20%3D%20%27https//www.bitsoup.me/clearannouncement.php?returnto=%27+location.pathname})();\nfunction(){}\n\njavascript:(function(){location.href='https//www.bitsoup.me/clearannouncement.php?returnto='+location.pathname})()",
-			"settings":
-			{
-				"buffer_size": 253,
-				"line_ending": "Unix",
-				"name": "%28function%28%29%7Blocation.href%20%3D%20%27https"
-			}
-		},
-		{
-			"file": "www/js/all.js",
-			"settings":
-			{
-				"buffer_size": 10525,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "src/js/app.js",
 			"settings":
 			{
-				"buffer_size": 2654,
+				"buffer_size": 2912,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "tests/my.conf.js",
+			"file": "src/js/controllers/usersController.js",
 			"settings":
 			{
-				"buffer_size": 2617,
+				"buffer_size": 616,
 				"line_ending": "Unix"
 			}
 		},
@@ -601,7 +539,63 @@
 			"file": "www/index.html",
 			"settings":
 			{
-				"buffer_size": 1152,
+				"buffer_size": 1277,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/controllers/eventsController.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/services.js",
+			"settings":
+			{
+				"buffer_size": 1626,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/menu.html",
+			"settings":
+			{
+				"buffer_size": 1548,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/events.html",
+			"settings":
+			{
+				"buffer_size": 1103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/usersService.js",
+			"settings":
+			{
+				"buffer_size": 1378,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/profileService.js",
+			"settings":
+			{
+				"buffer_size": 2595,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/templates/users.html",
+			"settings":
+			{
+				"buffer_size": 777,
 				"line_ending": "Unix"
 			}
 		}
@@ -613,10 +607,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 301.0,
-		"last_filter": "jav",
+		"height": 393.0,
+		"last_filter": "reinde",
 		"selected_items":
 		[
+			[
+				"reinde",
+				"Indentation: Reindent Lines"
+			],
 			[
 				"jav",
 				"Set Syntax: JavaScript"
@@ -938,7 +936,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 561.0
+		"width": 593.0
 	},
 	"console":
 	{
@@ -966,34 +964,49 @@
 		"/home/javo/dev/main/swirl",
 		"/home/javo/dev/main/swirl/src",
 		"/home/javo/dev/main/swirl/src/js",
-		"/home/javo/dev/main/swirl/src/js/services",
-		"/home/javo/dev/main/swirl/tests",
-		"/home/javo/dev/main/swirl/tests/controllers",
-		"/home/javo/dev/main/swirl/tests/coverage",
-		"/home/javo/dev/main/swirl/www",
-		"/home/javo/dev/main/swirl/www/lib",
-		"/home/javo/dev/main/swirl/www/lib/angular-mocks",
-		"/home/javo/dev/main/swirl/www/lib/ionic",
-		"/home/javo/dev/main/swirl/www/lib/mockfirebase"
+		"/home/javo/dev/main/swirl/src/js/services"
 	],
 	"file_history":
 	[
+		"/home/javo/dev/main/swirl/src/js/controllers/controllers.js",
+		"/home/javo/dev/main/swirl/src/js/services/eventsService.js",
+		"/home/javo/dev/main/swirl/www/templates/users.html",
+		"/home/javo/dev/main/swirl/www/templates/events.html",
+		"/home/javo/dev/main/swirl/www/css/all.css",
+		"/home/javo/dev/main/swirl/www/index.html",
+		"/home/javo/dev/main/swirl/src/scss/ionic.app.scss",
+		"/home/javo/dev/main/swirl/swirl.sublime-project",
+		"/home/javo/dev/recursos/Ionic-Material/demo/www/templates/profile.html",
+		"/home/javo/dev/main/swirl/www/templates/intro.html",
+		"/home/javo/dev/recursos/Ionic-Material/demo/www/templates/login.html",
+		"/home/javo/dev/main/swirl/www/templates/event.html",
+		"/home/javo/dev/main/swirl/src/js/services/profileService.js",
+		"/home/javo/dev/main/swirl/src/js/services/usersService.js",
+		"/home/javo/dev/main/swirl/src/scss/events.scss",
+		"/home/javo/dev/recursos/Ionic-Material/demo/www/templates/friends.html",
+		"/home/javo/.ssh/id_rsa.pub",
+		"/home/javo/dev/main/swirl/src/js/app.js",
+		"/home/javo/dev/main/swirl/www/templates/profile.html",
+		"/home/javo/dev/main/swirl/www/templates/menu.html",
+		"/home/javo/dev/main/swirl/gulpfile.js",
+		"/home/javo/dev/main/swirl/www/css/ionic.app.css",
+		"/home/javo/dev/main/swirl/src/js/controllers/eventsController.js",
+		"/home/javo/dev/main/swirl/src/js/services/services.js",
+		"/home/javo/dev/main/swirl/www/js/all.js",
+		"/home/javo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/javo/dev/main/swirl/tests/controllers/eventsController.tests.js",
+		"/home/javo/dev/main/swirl/tests/karma.conf.js",
+		"/home/javo/dev/main/swirl/tests/my.conf.js",
 		"/home/javo/scripts/ocultar_extras",
 		"/mnt/sda1/harmony/harmony-ui-components/package.json",
-		"/home/javo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 		"/home/javo/scripts/mover_serie",
-		"/home/javo/dev/main/swirl/www/js/all.js",
-		"/home/javo/dev/main/swirl/gulpfile.js",
 		"/home/javo/dev/main/swirl/www/lib/ng-walkthrough/karma.conf.js",
 		"/home/javo/dev/main/swirl/package.json",
 		"/home/javo/dev/main/swirl/bower.json",
 		"/mnt/sda1/harmony/harmony-ui-components/test/config/base.js",
 		"/mnt/sda1/harmony/harmony-ui-components/test/config/sauce.js",
-		"/home/javo/dev/main/swirl/src/js/app.js",
-		"/home/javo/dev/main/swirl/src/js/services/services.js",
 		"/home/javo/dev/proyectos/ionic-testing/www/js/services.js",
 		"/home/javo/dev/main/swirl/src/js/services/utils.js",
-		"/home/javo/dev/main/swirl/swirl.sublime-project",
 		"/home/javo/dev/proyectos/ionic-testing/tests/Controllers/controllers.tests.js",
 		"/home/javo/dev/proyectos/ionic-testing/www/js/controllers.js",
 		"/home/javo/dev/proyectos/ionic-testing/www/js/app.js",
@@ -1001,16 +1014,10 @@
 		"/home/javo/dev/proyectos/ionic-testing/bower.json",
 		"/home/javo/dev/proyectos/ionic-testing/gulpfile.js",
 		"/home/javo/dev/proyectos/ionic-testing/tests/my.conf.js",
-		"/home/javo/dev/main/swirl/tests/my.conf.js",
-		"/home/javo/dev/main/swirl/www/index.html",
-		"/home/javo/dev/main/swirl/www/templates/events.html",
 		"/home/javo/dev/proyectos/myApp-tabs/www/js/controllers.js",
 		"/home/javo/dev/main/swirl/node_modules/karma-jasmine/lib/index.js",
-		"/home/javo/dev/main/swirl/www/templates/profile.html",
-		"/home/javo/dev/main/swirl/src/js/controllers/controllers.js",
 		"/home/javo/dev/main/swirl/src/scss/menu.scss",
 		"/home/javo/dev/main/swirl/src/js/services/users.js",
-		"/home/javo/dev/main/swirl/src/js/controllers/eventsController.js",
 		"/home/javo/dev/main/swirl/www/lib/angular/angular.js",
 		"/home/javo/dev/proyectos/myApp/www/lib/ionic/js/angular/angular.js",
 		"/home/javo/dev/proyectos/myApp/package.json",
@@ -1020,18 +1027,13 @@
 		"/home/javo/.kde4/share/apps/krusader/krusaderui.rc",
 		"/home/javo/dev/main/swirl/.jshintrc",
 		"/home/javo/dev/main/swirl/src/scss/intro.scss",
-		"/home/javo/dev/main/swirl/www/templates/menu.html",
 		"/home/javo/dev/main/swirl/ionic.project",
-		"/home/javo/dev/main/swirl/www/templates/intro.html",
-		"/home/javo/dev/main/swirl/www/css/ionic.app.css",
 		"/home/javo/dev/main/swirl/src/js/services.js",
 		"/home/javo/dev/main/swirl/src/js/controllers.js",
-		"/home/javo/dev/main/swirl/src/scss/ionic.app.scss",
 		"/home/javo/dev/main/swirl/src/js/utils.js",
 		"/home/javo/dev/main/swirl/www/js/services.js",
 		"/home/javo/dev/main/swirl/www/js/app.js",
 		"/home/javo/dev/main/swirl/www/js/controllers.js",
-		"/home/javo/dev/main/swirl/www/templates/event.html",
 		"/home/javo/dev/main/swirl/scss/menu.scss",
 		"/home/javo/dev/proyectos/myApp-tabs/www/templates/tabs.html",
 		"/home/javo/dev/main/swirl/scss/ionic.app.scss",
@@ -1044,7 +1046,6 @@
 		"/home/javo/dev/main/swirl/www/js/utils.js",
 		"/home/javo/dev/main/swirl/www/css/style.css",
 		"/home/javo/dev/main/swirl/Gruntfile.js",
-		"/home/javo/dev/main/swirl/www/templates/users.html",
 		"/home/javo/dev/main/swirl/www/css/ionic.material.css",
 		"/home/javo/dev/proyectos/myApp/node_modules/gulp-sass/node_modules/node-sass/scripts/build.js",
 		"/home/javo/dev/proyectos/myApp/node_modules/pangyp/bin/node-gyp.js",
@@ -1094,28 +1095,24 @@
 		"/home/javo/.wine/drive_c/users/javo/Escritorio/Last Man.desktop",
 		"/home/javo/.wine/drive_c/users/javo/Escritorio/Last Man.lnk",
 		"/home/javo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
-		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/menu.html",
-		"/home/javo/series/family guy/bajar el catorce.txt",
-		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/css/style.css",
-		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/messages.html",
-		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/messagesList.html",
-		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/home.html",
-		"/home/javo/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle",
-		"/home/javo/dev/proyectos/Ionic-Material-master/docs/js/controllers.js",
-		"/home/javo/dev/proyectos/react-tutorial/public/index.html",
-		"/home/javo/.bajados/BEW-S01E03/Files/_game.js",
-		"/home/javo/dev/proyectos/react/build/helloworld.js",
-		"/home/javo/dev/proyectos/react/helloworld.js"
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/menu.html"
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
 		"height": 108.0,
 		"where_history":
 		[
+			"*",
+			"*.html",
+			"*.js",
+			"*.scss",
+			"*.SCSS",
+			"*.js",
+			"*.scss",
 			"*.js",
 			"*.html,/home/javo/dev/proyectos/Ionic-Material-master/demo/www",
 			"*.html",
@@ -1174,9 +1171,68 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"firebase",
+			"friend",
+			"groupkey",
+			"groupKey",
+			"groupkey",
+			"groupKey",
+			"getfollow",
+			"users",
+			"icons",
+			"profileim",
+			"profile",
+			"profileima",
+			"usersservi",
+			"Users",
+			"users",
+			"Users",
+			"users",
+			"Users",
+			"UserService",
+			"user.serv",
+			"users",
+			"users.get",
+			"contacts",
+			"Contacts",
+			"ContactsCtrl",
+			"google",
+			"users",
+			"profile",
+			"ion-social",
+			"effect",
+			"<p>",
+			"compiled",
+			"compile",
+			"clicktest",
+			"scroll",
+			"viewHistory",
+			"v",
+			"back",
+			"sass",
+			"col col-100",
+			".col",
+			">",
+			"eventsCtrl",
+			"eventsctrl",
+			"events.servi",
+			"has-tabs",
+			"Events",
+			"events",
+			"Events",
+			"events",
+			"Events",
+			"DB",
+			"Auth",
+			"auth",
+			"Auth",
+			"auth",
+			"Auth",
+			"Items",
+			"items",
 			"wit",
 			"swimct",
 			"nonudi",
@@ -1245,66 +1301,7 @@
 			":",
 			"super",
 			"win",
-			"super",
-			"token",
-			"alert",
-			"Users",
-			"auth",
-			"Auth",
-			"auth",
-			"Auth",
-			"auth",
-			"Auth",
-			"auth",
-			"Auth",
-			"ngfb",
-			"nfbg",
-			"ngfb",
-			"debugger",
-			"Playlist",
-			"playlists",
-			"playlist",
-			"f2",
-			"f12",
-			"wrap",
-			"button",
-			"but",
-			"BUT",
-			"profile",
-			"app",
-			"showheader",
-			"<img",
-			"<img src=\"img/jon-snow.jpg\">",
-			"<a href=\"#/app/profile\"",
-			"<i class=\"icon ion-chatbubble muted\"></i>",
-			"item-icon-right",
-			"expanded",
-			"friends",
-			"isexpanded",
-			"href",
-			"list card",
-			"has-header",
-			"P",
-			"p",
-			"profile",
-			"debug",
-			"setConfig",
-			"writeConfig",
-			"readConfig",
-			"bewDebugMenuEnabled",
-			"debug",
-			"ListItem",
-			"React.renderComponent",
-			"react.render",
-			"app.js",
-			"src",
-			"path/to",
-			"react",
-			"data-panel",
-			"localMin",
-			"checkS",
-			"checkS(",
-			"checkS"
+			"super"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1325,255 +1322,24 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/js/controllers/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3505,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								166,
-								166
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "44f78955",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/js/services/services.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								592,
-								592
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "761d5532",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "tests/karma.conf.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2749,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2054,
-								2054
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "ac5fc673",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21014,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4264,
-								4264
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"bs_sintax": "plain text",
-							"default_dir": "/home/javo/dev/main/swirl",
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "tests/controllers/eventsController.tests.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 651,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								651,
-								651
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "adb8daef",
-							"open_with_edit": true,
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 253,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								177,
-								177
-							]
-						],
-						"settings":
-						{
-							"auto_complete": true,
-							"auto_name": "%28function%28%29%7Blocation.href%20%3D%20%27https",
-							"bs_sintax": "plain text",
-							"default_dir": "/home/javo/dev/main/swirl",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "www/js/all.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10525,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3678,
-								3678
-							]
-						],
-						"settings":
-						{
-							"bs_sintax": "javascript",
-							"buffer_scroll_name": "8f83a30d",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1194.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
 					"file": "src/js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2654,
+						"buffer_size": 2912,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								982,
+								982
 							]
 						],
 						"settings":
@@ -1590,62 +1356,61 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "tests/my.conf.js",
+					"buffer": 1,
+					"file": "src/js/controllers/usersController.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2617,
+						"buffer_size": 616,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1198,
-								1198
+								361,
+								361
 							]
 						],
 						"settings":
 						{
 							"auto_complete": false,
 							"bs_sintax": "javascript",
-							"buffer_scroll_name": "0f68630a",
-							"spell_check": false,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"buffer_scroll_name": "e8fd6220",
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 2,
 					"file": "www/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1152,
+						"buffer_size": 1277,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								749,
-								749
+								803,
+								803
 							]
 						],
 						"settings":
 						{
+							"auto_complete": false,
 							"bs_sintax": "html",
 							"buffer_scroll_name": "6071006a",
 							"spell_check": false,
@@ -1657,7 +1422,250 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/js/controllers/eventsController.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "32a17f1d",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/js/services/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1626,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "761d5532",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "www/templates/menu.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1548,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								158,
+								158
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "html",
+							"buffer_scroll_name": "cf93db48",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/templates/events.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1103,
+								1103
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "html",
+							"buffer_scroll_name": "833abeef",
+							"history_list_is_closing": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": -927.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "src/js/services/usersService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1378,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								801,
+								801
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "59c7f07b",
+							"history_list_is_closing": true,
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/js/services/profileService.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2595,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								619,
+								619
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "8b9cc786",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/templates/users.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 777,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								777,
+								777
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "html",
+							"buffer_scroll_name": "e17513e4",
+							"history_list_is_closing": true,
+							"open_with_edit": true,
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1680,11 +1688,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1720,6 +1735,102 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"www/index.html"
+			],
+			[
+				"contro",
+				"src/js/controllers/controllers.js"
+			],
+			[
+				"eventsseriv",
+				"src/js/services/eventsService.js"
+			],
+			[
+				"profil",
+				"src/js/services/profileService.js"
+			],
+			[
+				"contr",
+				"src/js/controllers/controllers.js"
+			],
+			[
+				"ind",
+				"www/index.html"
+			],
+			[
+				"css",
+				"www/css/all.css"
+			],
+			[
+				"events",
+				"www/templates/events.html"
+			],
+			[
+				"user",
+				"www/templates/users.html"
+			],
+			[
+				"userser",
+				"src/js/services/usersService.js"
+			],
+			[
+				"menu",
+				"www/templates/menu.html"
+			],
+			[
+				"eventsser",
+				"src/js/services/eventsService.js"
+			],
+			[
+				"app",
+				"src/js/app.js"
+			],
+			[
+				"intro",
+				"www/templates/intro.html"
+			],
+			[
+				"scss",
+				"src/scss/events.scss"
+			],
+			[
+				"servi",
+				"src/js/services/services.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"event",
+				"www/templates/event.html"
+			],
+			[
+				"event.",
+				"www/templates/event.html"
+			],
+			[
+				"html",
+				"www/templates/menu.html"
+			],
+			[
+				"even",
+				"www/templates/events.html"
+			],
+			[
+				"all",
+				"www/js/all.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"al",
+				"www/js/all.js"
+			],
+			[
 				"karma",
 				"tests/karma.conf.js"
 			],
@@ -1728,32 +1839,12 @@
 				"tests/karma.conf.js"
 			],
 			[
-				"index",
-				"www/index.html"
-			],
-			[
-				"app",
-				"src/js/app.js"
-			],
-			[
-				"al",
-				"www/js/all.js"
-			],
-			[
-				"all",
-				"www/js/all.js"
-			],
-			[
 				"myc",
 				"tests/my.conf.js"
 			],
 			[
 				"test",
 				"tests/my.conf.js"
-			],
-			[
-				"servi",
-				"src/js/services/services.js"
 			],
 			[
 				"inde",
@@ -1772,24 +1863,12 @@
 				"tests/my.conf.js"
 			],
 			[
-				"gul",
-				"gulpfile.js"
-			],
-			[
-				"even",
-				"www/templates/events.html"
-			],
-			[
 				"utils",
 				"src/js/services/utils.js"
 			],
 			[
 				"cont",
 				"src/js/controllers/controllers.js"
-			],
-			[
-				"gulp",
-				"gulpfile.js"
 			],
 			[
 				"util",
@@ -1812,10 +1891,6 @@
 				"src/js/services/users.js"
 			],
 			[
-				"contr",
-				"src/js/controllers/controllers.js"
-			],
-			[
 				"menuscs",
 				"src/scss/menu.scss"
 			],
@@ -1824,24 +1899,12 @@
 				"www/templates/profile.html"
 			],
 			[
-				"menu",
-				"www/templates/menu.html"
-			],
-			[
-				"intro",
-				"src/scss/intro.scss"
-			],
-			[
 				"app.scs",
 				"src/scss/ionic.app.scss"
 			],
 			[
 				"menuhtml",
 				"www/templates/menu.html"
-			],
-			[
-				"events",
-				"www/templates/events.html"
 			],
 			[
 				"gu",
@@ -1872,10 +1935,6 @@
 				"www/js/services.js"
 			],
 			[
-				"scss",
-				"scss/ionic.app.scss"
-			],
-			[
 				"pa",
 				"package.json"
 			],
@@ -1900,10 +1959,6 @@
 				"templates/login.html"
 			],
 			[
-				"contro",
-				"js/controllers.js"
-			],
-			[
 				"control",
 				"conference/www/js/controllers.js"
 			],
@@ -1922,10 +1977,6 @@
 			[
 				"app.js",
 				"conference/www/js/app.js"
-			],
-			[
-				"html",
-				"templates/friends.html"
 			],
 			[
 				"conrtoller",
@@ -1956,16 +2007,8 @@
 				"css/app.css"
 			],
 			[
-				"ind",
-				"index.html"
-			],
-			[
 				"frie",
 				"www/templates/friends.html"
-			],
-			[
-				"profil",
-				"www/templates/profile.html"
 			],
 			[
 				"ap",
@@ -2046,10 +2089,6 @@
 			[
 				"boots",
 				"css/bootstrap.css"
-			],
-			[
-				"css",
-				"css/app.css"
 			],
 			[
 				"utils.js",
@@ -2206,30 +2245,6 @@
 			[
 				"playlist_mana",
 				"application/controllers/app/playlist_manager.php"
-			],
-			[
-				"app.min.js",
-				"js/app/app.min.js"
-			],
-			[
-				"web.min",
-				"js/web/web.min.js"
-			],
-			[
-				"plugins",
-				"js/web/plugins.js"
-			],
-			[
-				"tables.sq",
-				"assets/database/tables.sql"
-			],
-			[
-				"flexisql",
-				"assets/database/flexi_auth_database_dump.sql"
-			],
-			[
-				"schema",
-				"assets/database/schema.sql"
 			]
 		],
 		"width": 0.0
@@ -2252,7 +2267,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},
