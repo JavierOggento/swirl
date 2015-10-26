@@ -1,0 +1,14 @@
+{
+  "name": "conference",
+  "app_id": "",
+  "gulpStartupTasks": [
+    "lint",
+    "babel",
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}

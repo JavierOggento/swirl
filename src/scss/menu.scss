@@ -1,0 +1,19 @@
+.menu {
+	.bar {
+		&.bar-header.expanded {
+			background-color: #222;
+
+			img.avatar{
+				left: 15px;
+			}
+
+			h2{
+			    position: absolute;
+			    top: 78px;
+			    font-size: 19px;
+			    left: 18px;
+				color: white;
+			}
+		}
+	}
+}

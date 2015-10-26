@@ -1,0 +1,34 @@
+<ion-view view-title="Eventos" class="events-section">
+	<ion-tabs class="tabs-top static tabs-energized">
+		<ion-tab title="Hoy" on-select="today()"></ion-tab>
+		<ion-tab title="Semana" on-select="week()"></ion-tab>
+		<ion-tab title="Calendario"></ion-tab>
+	</ion-tabs>
+
+	<ion-content class="has-tabs-top">
+		<ion-list class="card content" ng-repeat="event in events">
+			<ion-item href="#/app/events/{{event.$id}}">
+					<h2>{{event.title}}</h2>
+			</ion-item>
+	  		<ion-item class="item-body"  href="#/app/events/{{event.$id}}">
+	  			<img class="full-image" src="{{event.image}}">
+					<p>Lugar: {{event.description}}</p>
+					<h3>{{event.location}}</h3>
+			</ion-item>
+			<div class="item tabs tabs-secondary tabs-icon-left">
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-thumbsup"></i>
+			      Assist
+			    </a>
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-chatbox"></i>
+			      Comment
+			    </a>
+			    <a class="tab-item" href="#">
+			      <i class="icon ion-share"></i>
+			      Share
+			    </a>
+		  	</div>
+		</ion-list>
+	</ion-content>
+</ion-view>

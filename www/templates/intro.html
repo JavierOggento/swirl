@@ -1,0 +1,42 @@
+<ion-view view-title="Intro" class="intro-section">
+  <!-- <ion-slide-box> -->
+<!--     <ion-slide>
+      <div class="box blue">
+        <div class="card">
+          <div class="item item-text-wrap">
+            Bienvenido a la mejor app del mundo
+          </div>
+        </div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="box blue">
+        <div class="card">
+          <div class="item item-text-wrap">
+            Logueate con <button ng-click="login()"><img class="icono-facebook" src="http://www.bulldogsdelboqueron.com/IMG/facebook.gif"></button>
+          </div>
+        </div>
+      </div>
+    </ion-slide> -->
+  <ion-slide-box on-slide-changed="slideChanged(index)" style="text-align: center">
+          <ion-slide>
+            <h3>Ya te instalaste la mejor app del mundo!</h3>
+            <div id="logo">
+              <img src="http://img-9gag-fun.9cache.com/photo/aBrG0zD_460s.jpg">
+            </div>
+            <br>
+            <br>
+          </ion-slide>
+          <ion-slide>
+            <div class="item item-text-wrap">
+              <p>Ahora solo logueate con</p>
+              <button class="button button-small button-border icon-left ion-social-google button-assertive-900">Google+</button>
+              <button class="button button-small button-border icon-left ion-social-twitter button-calm-900">Twitter</button>
+              <button ng-click="login()" class="button button-small button-border icon-left ion-social-facebook button-positive-900">Facebook</button>
+            </div>
+            <br>
+            <br>
+          </ion-slide>
+        </ion-slide-box>
+  <!-- </ion-slide-box> -->
+</ion-view>

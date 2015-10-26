@@ -1,0 +1,28 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+			"folder_exclude_patterns":
+			[
+				"node_modules",
+				"plugins",
+				/*"lib",*/
+				"platforms",
+				"resources",
+				"hooks"
+			],
+		}
+	],
+	"settings":
+	{
+		"FuzzyFilePath":
+		{
+		},
+		"JSCS-Formatter":
+		{
+			"config_path": "/home/javo/dev/main/swirl/.jscsrc",
+			"format_on_save": true
+		}
+	}
+}

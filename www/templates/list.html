@@ -1,0 +1,12 @@
+<ion-view view-title="List">
+	<ion-content>
+		<ion-list>
+			<button class="button button-icon ion-plus" ng-click="addItem()">Add item</button>
+		</ion-list>
+	  <ion-list>
+	    <ion-item ng-repeat="item in items">
+	      {{item.name}}
+	    </ion-item>
+	  </ion-list>
+	</ion-content>
+</ion-view>

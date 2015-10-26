@@ -1,0 +1,2268 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ionic",
+				"ionicSlideBoxDelegate"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"ioni",
+				"ionicMaterialInk"
+			],
+			[
+				"lo",
+				"localStorage"
+			],
+			[
+				"save",
+				"saveFacebook〔variable〕"
+			],
+			[
+				"user",
+				"userData〔argument〕"
+			],
+			[
+				"aut",
+				"authData〔argument〕"
+			],
+			[
+				"con",
+				"controller"
+			],
+			[
+				"stoc",
+				"stock_prices_yesterday"
+			],
+			[
+				"sto",
+				"stock_prices_yesterday"
+			],
+			[
+				"local",
+				"localDifference"
+			],
+			[
+				"loca",
+				"localDifference"
+			],
+			[
+				"loc",
+				"localDifference"
+			],
+			[
+				"lca",
+				"localMin"
+			],
+			[
+				"locl",
+				"localMax"
+			],
+			[
+				"localM",
+				"localMin"
+			],
+			[
+				"a",
+				"ac	appendChild"
+			],
+			[
+				"ids",
+				"idsArrayTemp"
+			],
+			[
+				"re",
+				"retry"
+			],
+			[
+				"urls",
+				"urlsFinal"
+			],
+			[
+				"getE",
+				"getElementsByTagName"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"thumb",
+				"thumbnail"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"resi",
+				"resizeGame"
+			],
+			[
+				"joystin",
+				"joystingames"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"paddin",
+				"padding-bottom"
+			],
+			[
+				"marin-",
+				"margin-top"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"bac",
+				"background-position"
+			],
+			[
+				"rep",
+				"repeat-x"
+			],
+			[
+				"nombre",
+				"nombreArchivoSinEspacios"
+			],
+			[
+				"di",
+				"divsConAnchoLength"
+			],
+			[
+				"div",
+				"divsConAncho"
+			],
+			[
+				"pla",
+				"playersContainer"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"popup",
+				"popupEdit"
+			],
+			[
+				"ocul",
+				"ocultar"
+			],
+			[
+				"most",
+				"mostrar"
+			],
+			[
+				"pro",
+				"proximoElementoPar"
+			],
+			[
+				"ra",
+				"ratioTemplate"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"backgorun",
+				"background-clip"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"al",
+				"alturaObjetivo"
+			],
+			[
+				"altu",
+				"alturaPadre"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"update",
+				"updateSVGs"
+			],
+			[
+				"border-",
+				"border-color"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"clima",
+				"climaID"
+			],
+			[
+				"table-c",
+				"table-cell"
+			],
+			[
+				"fsi",
+				"font-size"
+			],
+			[
+				"backgr",
+				"background-repeat"
+			],
+			[
+				"list",
+				"listdir	(imported, instance)"
+			],
+			[
+				"ce",
+				"concejales	(local, instance)"
+			],
+			[
+				"query",
+				"query2b	(local, instance)"
+			],
+			[
+				"obj",
+				"objetoConcejal	(local, instance)"
+			],
+			[
+				"fetch",
+				"fetchone"
+			],
+			[
+				"peso",
+				"pesoTotal	(local, instance)"
+			],
+			[
+				"resultados",
+				"resultados1	(local, instance)"
+			],
+			[
+				"ret",
+				"retweet"
+			],
+			[
+				"tw",
+				"tweetFecha"
+			],
+			[
+				"twe",
+				"tweetID"
+			],
+			[
+				"get",
+				"get_users_IDs"
+			],
+			[
+				"conectar",
+				"conectar_a_mysql"
+			],
+			[
+				"server",
+				"server_procesador	(global, instance)"
+			],
+			[
+				"listaC",
+				"listaCompleta"
+			],
+			[
+				"twitter",
+				"twitterID"
+			],
+			[
+				"mysq",
+				"mysqlConnection	(local, instance)"
+			],
+			[
+				"exce",
+				"execute"
+			],
+			[
+				"follo",
+				"followers_tweets"
+			],
+			[
+				"tweet",
+				"tweetsBorrar	(local, instance)"
+			],
+			[
+				"tweets",
+				"tweetsConPalabras	(local, instance)"
+			],
+			[
+				"lista",
+				"listaTweet	(local, instance)"
+			],
+			[
+				"resulta",
+				"resultados2	(local, instance)"
+			],
+			[
+				"follower",
+				"followersActualizados	(local, instance)"
+			],
+			[
+				"texto",
+				"textoError	(local, instance)"
+			],
+			[
+				"foll",
+				"followersNoAutorizados	(local, instance)"
+			],
+			[
+				"folo",
+				"followersActualizados	(local, instance)"
+			],
+			[
+				"fol",
+				"followersActualizados	(local, instance)"
+			],
+			[
+				"lis",
+				"listaFollowersIDs	(local, instance)"
+			],
+			[
+				"result",
+				"results	(local, instance)"
+			],
+			[
+				"pu",
+				"puntuaciones	(local, instance)"
+			],
+			[
+				"las",
+				"lastLocalID	(local, instance)"
+			],
+			[
+				"clasi",
+				"clasificaciones	(local, instance)"
+			],
+			[
+				"utf",
+				"utf-8"
+			],
+			[
+				"w",
+				"word_features	(attribute, instance)"
+			],
+			[
+				"sele",
+				"selectValues"
+			],
+			[
+				"usa",
+				"usuario2	(local, instance)"
+			],
+			[
+				"li",
+				"listaIDs	(local, instance)"
+			],
+			[
+				"actuali_ta",
+				"actualizar_tabla_keywords_global"
+			],
+			[
+				"twst",
+				"testing_tweets	(local, instance)"
+			],
+			[
+				"dic",
+				"diccionarioPalabras	(local, instance)"
+			],
+			[
+				"clas",
+				"clasificador	(attribute, instance)"
+			],
+			[
+				"ex",
+				"except	(keyword, instance)"
+			],
+			[
+				"ar",
+				"archivoClasificador	(local, instance)"
+			],
+			[
+				"ser",
+				"server_almacenador"
+			],
+			[
+				"show_",
+				"show_status(params)	(attribute, function)"
+			],
+			[
+				"lisat",
+				"listaTopicos	(global, instance)"
+			],
+			[
+				"ac",
+				"actualizar_tabla_con_palabras"
+			],
+			[
+				"pa",
+				"palabras"
+			],
+			[
+				"retwe",
+				"retweeted_status"
+			],
+			[
+				"jq",
+				"jqInputs"
+			],
+			[
+				"box-btn",
+				"box-btn-txt"
+			],
+			[
+				"box-",
+				"box-btn-txt"
+			],
+			[
+				"mostr",
+				"mostrarToastr"
+			],
+			[
+				"id",
+				"idsDiscosAgregadas	(local, instance)"
+			],
+			[
+				"max",
+				"max_id_str	(local, instance)"
+			],
+			[
+				"ge",
+				"generosMusicalesValidos	(attribute, instance)"
+			],
+			[
+				"suge",
+				"sugerenciasTemp	(local, instance)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/js/controllers/controllers.js",
+			"settings":
+			{
+				"buffer_size": 3505,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/services/services.js",
+			"settings":
+			{
+				"buffer_size": 865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/karma.conf.js",
+			"settings":
+			{
+				"buffer_size": 2749,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "------------------------\nMulti Part Key Conflicts\n------------------------\n-------------------------------------\nKey Conflicts (Only direct conflicts)\n-------------------------------------\n [\"]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|>|$)\"}, {\"key\": \"preceding_text\", \"operator\": \"not_regex_contains\", \"match_all\": true, \"operand\": \"[\\\"a-zA-Z0-9_]$\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n   move                                     Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\"\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n [#]\n   emmet_insert_attribute                   Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"text.html meta.tag -string -punctuation.definition.tag.begin.html -meta.scope.between-tag-pair.html -source -meta.tag.template.value.twig\"}, {\"key\": \"setting.auto_id_class\", \"operator\": \"equal\", \"operand\": true}]\n   insert_snippet                           Ruby                  [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"(string.quoted.double.ruby | string.interpolated.ruby) - string source\"}]\n [']\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|>|$)\"}, {\"key\": \"preceding_text\", \"operator\": \"not_regex_contains\", \"match_all\": true, \"operand\": \"['a-zA-Z0-9_]$\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n   move                                     Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^'\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n [(]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|;|\\\\}|$)\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n [[]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|;|\\\\}|$)\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n [alt+/]\n   auto_complete                            Default               \n   replace_completion_with_auto_complete    Default               [{\"key\": \"last_command\", \"operator\": \"equal\", \"operand\": \"insert_best_completion\"}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"operand\": false}, {\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}]\n [alt+ctrl+enter]\n   replace_all                              Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   expand_as_you_type                       Emmet                 [{\"key\": \"setting.is_widget\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"emmet_action_enabled.expand_as_you_type\", \"match_all\": true}]\n [alt+ctrl+space]\n   insert_path                              FuzzyFilePath         \n   insert_path                              FuzzyFilePath         \n [alt+enter]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   find_all                                 Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n   ffp_goto_file                            FuzzyFilePath         \n   ffp_goto_file                            FuzzyFilePath         \n [alt+left]\n   move                                     Default               \n   prev_view                                User                  \n [alt+right]\n   move                                     Default               \n   next_view                                User                  \n [alt+shift+down]\n   select_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.decrement_number_by_10\"}]\n [alt+shift+up]\n   select_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.increment_number_by_10\"}]\n [backspace]\n   left_delete                              Default               \n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\"$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\"\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.double - punctuation.definition.string.end\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"'$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^'\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"punctuation.definition.string.begin\"}, {\"key\": \"eol_selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"string.quoted.single - punctuation.definition.string.end\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\($\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\)\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\[$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\]\"}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   run_macro_file                           CSS                   [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css - meta.selector.css\"}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \":$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^;\"}]\n [ctrl+']\n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.encode_decode_data_url\"}]\n   expand_selection_to_quotes               Expand Selection to Quotes  \n [ctrl+down]\n   scroll_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.decrement_number_by_1\"}]\n [ctrl+e]\n   slurp_find_string                        Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.expand_abbreviation\"}]\n [ctrl+shift+;]\n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.remove_tag\"}]\n   run_macro_file                           User                  \n [ctrl+shift+backspace]\n   left_delete                              Default               \n   run_macro_file                           Default               \n [ctrl+shift+h]\n   replace_next                             Default               \n   htmlprettify                             HTML-CSS-JS Prettify  \n   format_javascript                        JSCS-Formatter        \n [ctrl+shift+r]\n   goto_symbol_in_project                   Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.reflect_css_value\"}]\n [ctrl+shift+space]\n   expand_selection                         Default               \n   code_intel_auto_complete                 CodeComplice          \n   insert_path                              FuzzyFilePath         \n   insert_path                              FuzzyFilePath         \n [ctrl+shift+u]\n   soft_redo                                Default               \n   update_as_you_type                       Emmet                 [{\"key\": \"setting.is_widget\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"emmet_action_enabled.update_as_you_type\", \"match_all\": true}]\n [ctrl+u]\n   soft_undo                                Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.update_image_size\"}]\n [ctrl+up]\n   scroll_lines                             Default               \n   run_emmet_action                         Emmet                 [{\"key\": \"emmet_action_enabled.increment_number_by_1\"}]\n [enter]\n   insert                                   Default               \n   commit_completion                        Default               [{\"key\": \"auto_complete_visible\"}, {\"key\": \"setting.auto_complete_commit_on_tab\", \"operand\": false}]\n   run_macro_file                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair\"}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}]\n   find_next                                Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_next                                Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   hide_panel                               Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n   insert_snippet                           Emmet                 [{\"key\": \"selector\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair.html, meta.scope.between-tag-pair.xml\"}, {\"key\": \"auto_complete_visible\", \"match_all\": true, \"operand\": false}, {\"key\": \"clear_fields_on_enter_key\", \"match_all\": true}, {\"key\": \"setting.disable_formatted_linebreak\", \"match_all\": true, \"operand\": false}]\n [escape]\n   single_selection                         Default               [{\"key\": \"num_selections\", \"operator\": \"not_equal\", \"operand\": 1}]\n   clear_fields                             Default               [{\"key\": \"has_next_field\", \"operator\": \"equal\", \"operand\": true}]\n   clear_fields                             Default               [{\"key\": \"has_prev_field\", \"operator\": \"equal\", \"operand\": true}]\n   hide_panel                               Default               [{\"key\": \"panel_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_overlay                             Default               [{\"key\": \"overlay_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_popup                               Default               [{\"key\": \"popup_visible\", \"operator\": \"equal\", \"operand\": true}]\n   hide_auto_complete                       Default               [{\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"operand\": true}]\n [shift+enter]\n   insert                                   Default               \n   run_macro_file                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"\\\\{$\"}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^\\\\}\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"meta.scope.between-tag-pair\"}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"find\"}, {\"key\": \"panel_has_focus\"}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"replace\"}, {\"key\": \"panel_has_focus\"}]\n   find_prev                                Default               [{\"key\": \"panel\", \"operand\": \"incremental_find\"}, {\"key\": \"panel_has_focus\"}]\n [shift+tab]\n   insert                                   Default               \n   unindent                                 Default               [{\"key\": \"setting.shift_tab_unindent\", \"operator\": \"equal\", \"operand\": true}]\n   unindent                                 Default               [{\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"operand\": \"^[\\t ]*\"}]\n   unindent                                 Default               [{\"key\": \"text\", \"operator\": \"regex_contains\", \"operand\": \"\\n\"}]\n   prev_field                               Default               [{\"key\": \"has_prev_field\", \"operator\": \"equal\", \"operand\": true}]\n [tab]\n   insert_best_completion                   Default               \n   insert_best_completion                   Default               [{\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \".*[^0-9]$\"}]\n   replace_completion_with_next_completion  Default               [{\"key\": \"last_command\", \"operator\": \"equal\", \"operand\": \"insert_best_completion\"}, {\"key\": \"setting.tab_completion\", \"operator\": \"equal\", \"operand\": true}]\n   reindent                                 Default               [{\"key\": \"setting.auto_indent\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"preceding_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}, {\"key\": \"following_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}]\n   indent                                   Default               [{\"key\": \"text\", \"operator\": \"regex_contains\", \"operand\": \"\\n\"}]\n   next_field                               Default               [{\"key\": \"has_next_field\", \"operator\": \"equal\", \"operand\": true}]\n   commit_completion                        Default               [{\"key\": \"auto_complete_visible\"}, {\"key\": \"setting.auto_complete_commit_on_tab\"}]\n   expand_abbreviation_by_tab               Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"storage.type.templatetag.django\"}, {\"key\": \"selection_empty\", \"match_all\": true}, {\"key\": \"has_next_field\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"setting.disable_tab_abbreviations\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"is_abbreviation\", \"match_all\": true}]\n   expand_abbreviation_by_tab               Emmet                 [{\"key\": \"selector\", \"operator\": \"equal\", \"match_all\": true, \"operand\": \"source.css, source.sass, source.less, source.scss, source.stylus, source.jade, text.slim, text.xml, text.html - source, text.haml, text.scala.html, source string\"}, {\"key\": \"selector\", \"operator\": \"not_equal\", \"match_all\": true, \"operand\": \"storage.type.templatetag.django\"}, {\"key\": \"selection_empty\", \"match_all\": true}, {\"key\": \"has_next_field\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"auto_complete_visible\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"setting.disable_tab_abbreviations_on_auto_complete\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}, {\"key\": \"is_abbreviation\", \"match_all\": true}]\n [{]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_contains\", \"match_all\": true, \"operand\": \"^(?:\\t| |\\\\)|]|\\\\}|$)\"}]\n   wrap_block                               Default               [{\"key\": \"indented_block\", \"match_all\": true}, {\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": true}, {\"key\": \"following_text\", \"operator\": \"regex_match\", \"match_all\": true, \"operand\": \"^$\"}]\n   insert_snippet                           Default               [{\"key\": \"setting.auto_match_enabled\", \"operator\": \"equal\", \"operand\": true}, {\"key\": \"selection_empty\", \"operator\": \"equal\", \"match_all\": true, \"operand\": false}]\n",
+			"settings":
+			{
+				"buffer_size": 21014,
+				"line_ending": "Unix",
+				"name": "All Key Conflicts",
+				"scratch": true
+			}
+		},
+		{
+			"contents": "describe('Controllers', function() {\n    var scope,\n        ionicMaterialInk = {\n            displayEffect: function() {\n                return;\n            }\n        },\n        Events;\n\n    // load the controller's module\n    beforeEach(module('swirl.controllers'));\n\n    beforeEach(inject(function($rootScope, $controller) {\n        scope = $rootScope.$new();\n        $controller('EventsCtrl', {\n            $scope: scope,\n            Events: Events,\n            ionicMaterialInk: ionicMaterialInk\n        });\n    }));\n\n    // tests start here\n    it('should have events defined', function() {\n        expect(scope.veents).toBeDefined();\n    });\n});",
+			"file": "tests/controllers/eventsController.tests.js",
+			"file_size": 651,
+			"file_write_time": 130890091371346759,
+			"settings":
+			{
+				"buffer_size": 651,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "%28function%28%29%7Blocation.href%20%3D%20%27https//www.bitsoup.me/clearannouncement.php?returnto=%27+location.pathname})();\nfunction(){}\n\njavascript:(function(){location.href='https//www.bitsoup.me/clearannouncement.php?returnto='+location.pathname})()",
+			"settings":
+			{
+				"buffer_size": 253,
+				"line_ending": "Unix",
+				"name": "%28function%28%29%7Blocation.href%20%3D%20%27https"
+			}
+		},
+		{
+			"file": "www/js/all.js",
+			"settings":
+			{
+				"buffer_size": 10525,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/app.js",
+			"settings":
+			{
+				"buffer_size": 2654,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/my.conf.js",
+			"settings":
+			{
+				"buffer_size": 2617,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/index.html",
+			"settings":
+			{
+				"buffer_size": 1152,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 301.0,
+		"last_filter": "jav",
+		"selected_items":
+		[
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"to",
+				"View: Toggle Menu"
+			],
+			[
+				"project",
+				"Project: Edit Project"
+			],
+			[
+				"toggle me",
+				"View: Toggle Menu"
+			],
+			[
+				"menu",
+				"View: Toggle Menu"
+			],
+			[
+				"syntax bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"angular",
+				"Set Syntax: HTML (Angular.js)"
+			],
+			[
+				"sy",
+				"Set Syntax: Sass"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"wrap se",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"tag",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"encode",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"ht",
+				"HTMLPrettify"
+			],
+			[
+				"prett",
+				"HTMLPrettify"
+			],
+			[
+				"pre",
+				"HTMLPrettify"
+			],
+			[
+				"reinden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"pair",
+				"Emmet: Go to Matching Pair"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"findk",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"fold",
+				"Snippet: for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"undo",
+				"Code Folding: Unfold All"
+			],
+			[
+				"wra",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"up",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"syn bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"syn java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"sort",
+				"Sort Lines"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"gitgu",
+				"GitGutter: Compare Against Branch"
+			],
+			[
+				"livere",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"liverel",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"reload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livelre",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"livereload",
+				"LiveReload: Enable/disable plug-ins"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Error List"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"pack",
+				"Package Control: Enable Package"
+			],
+			[
+				"pretti",
+				"HTMLPrettify"
+			],
+			[
+				"tidy",
+				"HTMLPrettify: Set `node` Path"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"code f",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"code fol",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"snippet",
+				"Snippet: For Loop"
+			],
+			[
+				"Snippet: pudb",
+				"Snippet: pudbSnippet"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"syntax pla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"syntax text",
+				"Set Syntax: reStructuredText"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"synax",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"syntax",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"bas",
+				"Set Syntax: Shell Script (Bash)"
+			],
+			[
+				"keys",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"todo",
+				"Show TODOs: Project and open files"
+			],
+			[
+				"rmo",
+				"Package Control: Remove Package"
+			],
+			[
+				"updat",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"prtt",
+				"HTMLPrettify"
+			],
+			[
+				"rmove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 477.0,
+		"history":
+		[
+			"alignment",
+			"clear",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"view.run_command('alignment')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/javo/dev/main/swirl",
+		"/home/javo/dev/main/swirl/src",
+		"/home/javo/dev/main/swirl/src/js",
+		"/home/javo/dev/main/swirl/src/js/services",
+		"/home/javo/dev/main/swirl/tests",
+		"/home/javo/dev/main/swirl/tests/controllers",
+		"/home/javo/dev/main/swirl/tests/coverage",
+		"/home/javo/dev/main/swirl/www",
+		"/home/javo/dev/main/swirl/www/lib",
+		"/home/javo/dev/main/swirl/www/lib/angular-mocks",
+		"/home/javo/dev/main/swirl/www/lib/ionic",
+		"/home/javo/dev/main/swirl/www/lib/mockfirebase"
+	],
+	"file_history":
+	[
+		"/home/javo/scripts/ocultar_extras",
+		"/mnt/sda1/harmony/harmony-ui-components/package.json",
+		"/home/javo/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/javo/scripts/mover_serie",
+		"/home/javo/dev/main/swirl/www/js/all.js",
+		"/home/javo/dev/main/swirl/gulpfile.js",
+		"/home/javo/dev/main/swirl/www/lib/ng-walkthrough/karma.conf.js",
+		"/home/javo/dev/main/swirl/package.json",
+		"/home/javo/dev/main/swirl/bower.json",
+		"/mnt/sda1/harmony/harmony-ui-components/test/config/base.js",
+		"/mnt/sda1/harmony/harmony-ui-components/test/config/sauce.js",
+		"/home/javo/dev/main/swirl/src/js/app.js",
+		"/home/javo/dev/main/swirl/src/js/services/services.js",
+		"/home/javo/dev/proyectos/ionic-testing/www/js/services.js",
+		"/home/javo/dev/main/swirl/src/js/services/utils.js",
+		"/home/javo/dev/main/swirl/swirl.sublime-project",
+		"/home/javo/dev/proyectos/ionic-testing/tests/Controllers/controllers.tests.js",
+		"/home/javo/dev/proyectos/ionic-testing/www/js/controllers.js",
+		"/home/javo/dev/proyectos/ionic-testing/www/js/app.js",
+		"/home/javo/dev/proyectos/ionic-testing/package.json",
+		"/home/javo/dev/proyectos/ionic-testing/bower.json",
+		"/home/javo/dev/proyectos/ionic-testing/gulpfile.js",
+		"/home/javo/dev/proyectos/ionic-testing/tests/my.conf.js",
+		"/home/javo/dev/main/swirl/tests/my.conf.js",
+		"/home/javo/dev/main/swirl/www/index.html",
+		"/home/javo/dev/main/swirl/www/templates/events.html",
+		"/home/javo/dev/proyectos/myApp-tabs/www/js/controllers.js",
+		"/home/javo/dev/main/swirl/node_modules/karma-jasmine/lib/index.js",
+		"/home/javo/dev/main/swirl/www/templates/profile.html",
+		"/home/javo/dev/main/swirl/src/js/controllers/controllers.js",
+		"/home/javo/dev/main/swirl/src/scss/menu.scss",
+		"/home/javo/dev/main/swirl/src/js/services/users.js",
+		"/home/javo/dev/main/swirl/src/js/controllers/eventsController.js",
+		"/home/javo/dev/main/swirl/www/lib/angular/angular.js",
+		"/home/javo/dev/proyectos/myApp/www/lib/ionic/js/angular/angular.js",
+		"/home/javo/dev/proyectos/myApp/package.json",
+		"/home/javo/.bajados/reproductor-modo-borrar",
+		"/home/javo/.kde4/share/config/krusaderrc",
+		"/home/javo/.kde4/share/apps/krusader/useractions.xml",
+		"/home/javo/.kde4/share/apps/krusader/krusaderui.rc",
+		"/home/javo/dev/main/swirl/.jshintrc",
+		"/home/javo/dev/main/swirl/src/scss/intro.scss",
+		"/home/javo/dev/main/swirl/www/templates/menu.html",
+		"/home/javo/dev/main/swirl/ionic.project",
+		"/home/javo/dev/main/swirl/www/templates/intro.html",
+		"/home/javo/dev/main/swirl/www/css/ionic.app.css",
+		"/home/javo/dev/main/swirl/src/js/services.js",
+		"/home/javo/dev/main/swirl/src/js/controllers.js",
+		"/home/javo/dev/main/swirl/src/scss/ionic.app.scss",
+		"/home/javo/dev/main/swirl/src/js/utils.js",
+		"/home/javo/dev/main/swirl/www/js/services.js",
+		"/home/javo/dev/main/swirl/www/js/app.js",
+		"/home/javo/dev/main/swirl/www/js/controllers.js",
+		"/home/javo/dev/main/swirl/www/templates/event.html",
+		"/home/javo/dev/main/swirl/scss/menu.scss",
+		"/home/javo/dev/proyectos/myApp-tabs/www/templates/tabs.html",
+		"/home/javo/dev/main/swirl/scss/ionic.app.scss",
+		"/home/javo/dev/main/swirl/www/css/ionicAndIonicMaterial.css",
+		"/home/javo/dev/main/swirl/www/lib/ionic/scss/ionic.scss",
+		"/boot/grub/grub.cfg",
+		"/home/javo/dev/proyectos/ionic-tutorial/server/routes/sessions.js",
+		"/home/javo/dev/recursos/Ionic-Material-master/demo/www/templates/gallery.html",
+		"/mnt/sdc3/javo/bajados/krarc",
+		"/home/javo/dev/main/swirl/www/js/utils.js",
+		"/home/javo/dev/main/swirl/www/css/style.css",
+		"/home/javo/dev/main/swirl/Gruntfile.js",
+		"/home/javo/dev/main/swirl/www/templates/users.html",
+		"/home/javo/dev/main/swirl/www/css/ionic.material.css",
+		"/home/javo/dev/proyectos/myApp/node_modules/gulp-sass/node_modules/node-sass/scripts/build.js",
+		"/home/javo/dev/proyectos/myApp/node_modules/pangyp/bin/node-gyp.js",
+		"/home/javo/dev/proyectos/myApp/node_modules/pangyp/lib/configure.js",
+		"/home/javo/dev/proyectos/myApp/node_modules/gulp-sass/package.json",
+		"/home/javo/dev/proyectos/myApp/node_modules/node-sass/package.json",
+		"/home/javo/dev/proyectos/myApp/node_modules/node-gyp/package.json",
+		"/home/javo/dev/proyectos/myApp/node_modules/node-gyp/bin/node-gyp.js",
+		"/home/javo/dev/proyectos/myApp/node_modules/node-gyp/gyp/gyp",
+		"/home/javo/dev/proyectos/myApp/node_modules/gulp-sass/node_modules/node-sass/src/sass_context_wrapper.h",
+		"/home/javo/dev/main/swirl/npm-shrinkwrap.json",
+		"/mnt/sda1/harmony/harmony-ui-components/bower.json",
+		"/home/javo/dev/main/swirl/node_modules/node-sass/lib/index.js",
+		"/home/javo/dev/main/swirl/www/lib/ionic-material/ionic.material.js",
+		"/home/javo/dev/main/swirl/www/templates/search.html",
+		"/home/javo/dev/main/swirl/www/templates/browse.html",
+		"/home/javo/.config/sublime-text-3/Packages/JSCS-Formatter/JSCS-Formatter.sublime-settings",
+		"/home/javo/dev/proyectos/ionic-tutorial/server/server.js",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/index.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/bower.json",
+		"/home/javo/dev/proyectos/menuBase/www/js/controllers.js",
+		"/home/javo/dev/proyectos/menuBase/www/js/app.js",
+		"/home/javo/dev/proyectos/menuBase/www/templates/login.html",
+		"/home/javo/dev/proyectos/menuBase/ionic-starter-sidemenu-master/templates/login.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/js/utils.js",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/js/app.js",
+		"/home/javo/.config/sublime-text-3/Packages/Alignment/Base File.sublime-settings",
+		"/home/javo/.config/sublime-text-3/Packages/User/Base File.sublime-settings",
+		"/home/javo/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/javo/.config/sublime-text-3/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/javo/.config/sublime-text-3/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/list.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/sessions.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/login.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/menu.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/session.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/js/controllers.js",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/templates/profile.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/oauthcallback.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/resources/oauthcallback.html",
+		"/home/javo/dev/proyectos/ionic-tutorial/resources/ngopenfb.js",
+		"/home/javo/dev/proyectos/ionic-tutorial/conference/www/js/services.js",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/js/controllers.js",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/index.html",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/friends.html",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/js/app.js",
+		"/home/javo/.wine/drive_c/users/javo/Escritorio/Last Man.desktop",
+		"/home/javo/.wine/drive_c/users/javo/Escritorio/Last Man.lnk",
+		"/home/javo/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/menu.html",
+		"/home/javo/series/family guy/bajar el catorce.txt",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/css/style.css",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/messages.html",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/messagesList.html",
+		"/home/javo/dev/proyectos/Ionic-Material-master/demo/www/templates/home.html",
+		"/home/javo/.config/sublime-text-3/Packages/User/Package Control.user-ca-bundle",
+		"/home/javo/dev/proyectos/Ionic-Material-master/docs/js/controllers.js",
+		"/home/javo/dev/proyectos/react-tutorial/public/index.html",
+		"/home/javo/.bajados/BEW-S01E03/Files/_game.js",
+		"/home/javo/dev/proyectos/react/build/helloworld.js",
+		"/home/javo/dev/proyectos/react/helloworld.js"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"*.js",
+			"*.html,/home/javo/dev/proyectos/Ionic-Material-master/demo/www",
+			"*.html",
+			"*.js",
+			"*",
+			"*.php",
+			"*.js",
+			"*",
+			"*.",
+			"*",
+			"*.js",
+			"*.css",
+			"*",
+			"*.php",
+			"*",
+			"*.js",
+			"*",
+			"*.css",
+			"*.js",
+			"*.php",
+			"*.css",
+			"*, -/srv/http/public/nuvelar/www/, -*min.js",
+			"*, -/srv/http/public/nuvelar/www/application/logs/, -*min.js",
+			"*, -/srv/http/public/nuvelar/www/application/logs/",
+			"* -/srv/http/public/nuvelar/www/application/logs/",
+			"*.php, -/srv/http/public/nuvelar/www/application/logs/",
+			"*.php, *.js, ,-/srv/http/public/nuvelar/www/application/logs/",
+			"*.php, *.js, ,-*/logs/",
+			"*.php, *.js, -*log.php",
+			"*.php, *.js",
+			"*.php",
+			"*",
+			"*.html",
+			"*.css",
+			"*",
+			"*.html",
+			"*",
+			"templates/*.html",
+			"/web/templates/*.html",
+			"*.html",
+			"*",
+			"*.html",
+			"*",
+			"*.js",
+			"*.html",
+			"*",
+			"*.html",
+			"*",
+			"*.html",
+			"*",
+			"*.py",
+			"*.py, *.html",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"wit",
+			"swimct",
+			"nonudi",
+			"konami",
+			"cheatcode",
+			"cheatcode\n",
+			"debug",
+			"konami",
+			"desktop",
+			"firebase",
+			"<script src=\"",
+			"<script src=",
+			"ngresou",
+			".events",
+			"local",
+			"torrent",
+			"profile",
+			">",
+			"<a class=\"tab-item\" >",
+			"ng-click",
+			"ng-click=\"",
+			"ng-click=",
+			"child",
+			"User",
+			"user",
+			"User",
+			"user",
+			"User",
+			"1",
+			"left",
+			"1",
+			"session",
+			"user",
+			"session",
+			"Session",
+			"itemsRef",
+			"sessions",
+			"failPythonVersion",
+			"gyp",
+			"sass",
+			".css",
+			"drwxr",
+			"font",
+			".ionic .button.icon",
+			".icon",
+			"button",
+			"session",
+			"userProfile",
+			"setObject",
+			"value",
+			"set",
+			"set(",
+			"Session",
+			"session",
+			"Session",
+			"ng-walktrough",
+			"login",
+			"starter",
+			"login",
+			"state",
+			"login",
+			"authData",
+			"userData",
+			"authData",
+			"save",
+			":",
+			"super",
+			"win",
+			"super",
+			"token",
+			"alert",
+			"Users",
+			"auth",
+			"Auth",
+			"auth",
+			"Auth",
+			"auth",
+			"Auth",
+			"auth",
+			"Auth",
+			"ngfb",
+			"nfbg",
+			"ngfb",
+			"debugger",
+			"Playlist",
+			"playlists",
+			"playlist",
+			"f2",
+			"f12",
+			"wrap",
+			"button",
+			"but",
+			"BUT",
+			"profile",
+			"app",
+			"showheader",
+			"<img",
+			"<img src=\"img/jon-snow.jpg\">",
+			"<a href=\"#/app/profile\"",
+			"<i class=\"icon ion-chatbubble muted\"></i>",
+			"item-icon-right",
+			"expanded",
+			"friends",
+			"isexpanded",
+			"href",
+			"list card",
+			"has-header",
+			"P",
+			"p",
+			"profile",
+			"debug",
+			"setConfig",
+			"writeConfig",
+			"readConfig",
+			"bewDebugMenuEnabled",
+			"debug",
+			"ListItem",
+			"React.renderComponent",
+			"react.render",
+			"app.js",
+			"src",
+			"path/to",
+			"react",
+			"data-panel",
+			"localMin",
+			"checkS",
+			"checkS(",
+			"checkS"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"<title>Concejales Bahia",
+			"/concejales/",
+			"/"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/js/controllers/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								166,
+								166
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "44f78955",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/js/services/services.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								592,
+								592
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "761d5532",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "tests/karma.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2749,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2054,
+								2054
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "ac5fc673",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4264,
+								4264
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"bs_sintax": "plain text",
+							"default_dir": "/home/javo/dev/main/swirl",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "tests/controllers/eventsController.tests.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "adb8daef",
+							"open_with_edit": true,
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 253,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								177,
+								177
+							]
+						],
+						"settings":
+						{
+							"auto_complete": true,
+							"auto_name": "%28function%28%29%7Blocation.href%20%3D%20%27https",
+							"bs_sintax": "plain text",
+							"default_dir": "/home/javo/dev/main/swirl",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "www/js/all.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10525,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3678,
+								3678
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "8f83a30d",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1194.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/js/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2654,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "ef561418",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "tests/my.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1198
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"bs_sintax": "javascript",
+							"buffer_scroll_name": "0f68630a",
+							"spell_check": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 45.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "www/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								749,
+								749
+							]
+						],
+						"settings":
+						{
+							"bs_sintax": "html",
+							"buffer_scroll_name": "6071006a",
+							"spell_check": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.xdebug":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "swirl.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"karma",
+				"tests/karma.conf.js"
+			],
+			[
+				"krm",
+				"tests/karma.conf.js"
+			],
+			[
+				"index",
+				"www/index.html"
+			],
+			[
+				"app",
+				"src/js/app.js"
+			],
+			[
+				"al",
+				"www/js/all.js"
+			],
+			[
+				"all",
+				"www/js/all.js"
+			],
+			[
+				"myc",
+				"tests/my.conf.js"
+			],
+			[
+				"test",
+				"tests/my.conf.js"
+			],
+			[
+				"servi",
+				"src/js/services/services.js"
+			],
+			[
+				"inde",
+				"www/index.html"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"mycon",
+				"tests/my.conf.js"
+			],
+			[
+				"tecon",
+				"tests/my.conf.js"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"even",
+				"www/templates/events.html"
+			],
+			[
+				"utils",
+				"src/js/services/utils.js"
+			],
+			[
+				"cont",
+				"src/js/controllers/controllers.js"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"util",
+				"src/js/services/utils.js"
+			],
+			[
+				"sev",
+				"src/js/services/services.js"
+			],
+			[
+				"ser",
+				"src/js/services/services.js"
+			],
+			[
+				".jshin",
+				".jshintrc"
+			],
+			[
+				"users",
+				"src/js/services/users.js"
+			],
+			[
+				"contr",
+				"src/js/controllers/controllers.js"
+			],
+			[
+				"menuscs",
+				"src/scss/menu.scss"
+			],
+			[
+				"pro",
+				"www/templates/profile.html"
+			],
+			[
+				"menu",
+				"www/templates/menu.html"
+			],
+			[
+				"intro",
+				"src/scss/intro.scss"
+			],
+			[
+				"app.scs",
+				"src/scss/ionic.app.scss"
+			],
+			[
+				"menuhtml",
+				"www/templates/menu.html"
+			],
+			[
+				"events",
+				"www/templates/events.html"
+			],
+			[
+				"gu",
+				"gulpfile.js"
+			],
+			[
+				"ined",
+				"www/index.html"
+			],
+			[
+				"g",
+				"gulpfile.js"
+			],
+			[
+				"sscs",
+				"scss/ionic.app.scss"
+			],
+			[
+				"sass",
+				"scss/ionic.app.scss"
+			],
+			[
+				"prof",
+				"www/templates/profile.html"
+			],
+			[
+				"serv",
+				"www/js/services.js"
+			],
+			[
+				"scss",
+				"scss/ionic.app.scss"
+			],
+			[
+				"pa",
+				"package.json"
+			],
+			[
+				"grunt",
+				"Gruntfile.js"
+			],
+			[
+				"ioni",
+				"www/css/ionic.material.css"
+			],
+			[
+				"controller",
+				"www/js/controllers.js"
+			],
+			[
+				"uti",
+				"js/utils.js"
+			],
+			[
+				"lo",
+				"templates/login.html"
+			],
+			[
+				"contro",
+				"js/controllers.js"
+			],
+			[
+				"control",
+				"conference/www/js/controllers.js"
+			],
+			[
+				"cotr",
+				"conference/www/js/controllers.js"
+			],
+			[
+				"ng",
+				"resources/ngopenfb.js"
+			],
+			[
+				"login",
+				"conference/www/templates/login.html"
+			],
+			[
+				"app.js",
+				"conference/www/js/app.js"
+			],
+			[
+				"html",
+				"templates/friends.html"
+			],
+			[
+				"conrtoller",
+				"docs/js/controllers.js"
+			],
+			[
+				"profile",
+				"demo/www/templates/profile.html"
+			],
+			[
+				"publicinde",
+				"public/index.html"
+			],
+			[
+				"listview",
+				"src/list/listView.js"
+			],
+			[
+				"contactmod",
+				"build/contactModel.js"
+			],
+			[
+				"route",
+				"build/router.js"
+			],
+			[
+				"appcss",
+				"css/app.css"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"frie",
+				"www/templates/friends.html"
+			],
+			[
+				"profil",
+				"www/templates/profile.html"
+			],
+			[
+				"ap",
+				"www/js/app.js"
+			],
+			[
+				"sett",
+				"www/templates/settings.html"
+			],
+			[
+				"home",
+				"www/templates/home.html"
+			],
+			[
+				"playlist",
+				"www/templates/playlist.html"
+			],
+			[
+				"searc",
+				"platforms/android/assets/www/templates/search.html"
+			],
+			[
+				"assetswebindex",
+				"assets/web/index.html"
+			],
+			[
+				"main.h",
+				"views/main.html"
+			],
+			[
+				"main.js",
+				"scripts/controllers/main.js"
+			],
+			[
+				"about",
+				"views/about.html"
+			],
+			[
+				"aou",
+				"scripts/controllers/about.js"
+			],
+			[
+				"style",
+				"styles/main.scss"
+			],
+			[
+				"apps",
+				"scripts/app.js"
+			],
+			[
+				"scena",
+				"test/e2e/scenarios.js"
+			],
+			[
+				"contrjs",
+				"app/js/controllers.js"
+			],
+			[
+				"app.ht",
+				"app/index.html"
+			],
+			[
+				"englis",
+				"english.htm"
+			],
+			[
+				"esnaol",
+				"espanol.htm"
+			],
+			[
+				"sharre",
+				"js/jquery.sharrre.js"
+			],
+			[
+				"sha",
+				"sharrre.php"
+			],
+			[
+				"boots",
+				"css/bootstrap.css"
+			],
+			[
+				"css",
+				"css/app.css"
+			],
+			[
+				"utils.js",
+				"js/app/Utils.js"
+			],
+			[
+				"librariesmediama",
+				"application/libraries/app/media_manager.php"
+			],
+			[
+				"nuvelarresour",
+				"js/app/NuvelarResourceManager.js"
+			],
+			[
+				"managejs",
+				"js/app/MediaResourceManager.js"
+			],
+			[
+				"assets-ne",
+				"application/views/app/home/assets-nuvelar-list.php"
+			],
+			[
+				"ut",
+				"js/app/Utils.js"
+			],
+			[
+				"home.css",
+				"css/app/home.css"
+			],
+			[
+				"pushmenu",
+				"js/app/mlpushmenu.js"
+			],
+			[
+				"style.css",
+				"css/app/style.css"
+			],
+			[
+				"javocss",
+				"css/app/styleJavo.css"
+			],
+			[
+				"playlist-timelin",
+				"application/views/app/admJavo/playlist-timeline.php"
+			],
+			[
+				"playlist-list",
+				"application/views/app/admJavo/playlists-list-end.php"
+			],
+			[
+				"asset-med",
+				"application/views/app/admJavo/assets-media-list.php"
+			],
+			[
+				"nuvelar",
+				"application/views/app/admJavo/assets-nuvelar-list.php"
+			],
+			[
+				"stylejav",
+				"css/app/styleJavo.css"
+			],
+			[
+				"javo",
+				"application/controllers/app/javo.php"
+			],
+			[
+				"header",
+				"application/views/app/admJavo/header.php"
+			],
+			[
+				"globa.css",
+				"includes/css/global.css"
+			],
+			[
+				"playlist-list-end",
+				"application/views/app/admJavo/playlists-list-end.php"
+			],
+			[
+				"playlist-time",
+				"application/views/app/admJavo/playlist-timeline.php"
+			],
+			[
+				"main.php",
+				"application/views/app/admJavo/main.php"
+			],
+			[
+				"assets-nu",
+				"application/views/app/admJavo/assets-nuvelar-list.php"
+			],
+			[
+				"assets-medi",
+				"application/views/app/admJavo/assets-media-list.php"
+			],
+			[
+				"compo",
+				"css/app/ModalWindowEffects/component.css"
+			],
+			[
+				"copm",
+				"css/app/component.css"
+			],
+			[
+				"head",
+				"application/views/app/adm/header.php"
+			],
+			[
+				"hedaer",
+				"application/views/web/header.php"
+			],
+			[
+				"s",
+				"style.css"
+			],
+			[
+				"resoujs",
+				"js/app/MediaResourceManager.js"
+			],
+			[
+				"manager.js",
+				"js/app/PlaylistManager.js"
+			],
+			[
+				"ico_busca",
+				"css/app/images/iconos-svg/varios/ico_buscar.svg"
+			],
+			[
+				"manager",
+				"js/app/MediaResourceManager.js"
+			],
+			[
+				"style.cs",
+				"css/app/style.css"
+			],
+			[
+				"footer",
+				"application/views/app/adm/footer.php"
+			],
+			[
+				"header.p",
+				"application/views/app/adm/header.php"
+			],
+			[
+				"header.",
+				"application/views/app/adm/header.php"
+			],
+			[
+				"mlpush",
+				"js/app/mlpushmenu.js"
+			],
+			[
+				"header.php",
+				"application/views/app/adm/header.php"
+			],
+			[
+				"playlist_mana",
+				"application/controllers/app/playlist_manager.php"
+			],
+			[
+				"app.min.js",
+				"js/app/app.min.js"
+			],
+			[
+				"web.min",
+				"js/web/web.min.js"
+			],
+			[
+				"plugins",
+				"js/web/plugins.js"
+			],
+			[
+				"tables.sq",
+				"assets/database/tables.sql"
+			],
+			[
+				"flexisql",
+				"assets/database/flexi_auth_database_dump.sql"
+			],
+			[
+				"schema",
+				"assets/database/schema.sql"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 501.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 381.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 275.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

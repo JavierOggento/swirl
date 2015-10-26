@@ -1,0 +1,60 @@
+<ion-view view-title="Event">
+    <ion-content class="has-header event-detail">
+        <div class="hero has-mask" style="background-image: url({{event.image}})">
+            <div class="content">
+                <button class="button button-large button-clear flat waves-effect waves-button waves-light icon ion-heart pull-right text-white"></button>
+                <button class="button button-large button-clear flat waves-effect waves-button waves-light icon ion-images pull-right text-white"></button>
+                <button class="button button-large button-clear flat waves-effect waves-button waves-light icon ion-map pull-right text-white"></button>
+            </div>
+        </div>
+        <div class="event-header row">
+            <div class="col col-72">
+                <h4>{{event.type}}</h4>
+            </div>
+            <div class="rating col col-25 text-right">
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+                <i class="icon ion-star"></i>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col col-75">
+                <h2>{{event.title}}</h2>
+            </div>
+            <div class="col col-25 text-right">
+                <h4>{{event.date}}</h4>
+            </div>
+        </div>
+        <div class="row">
+            <p>{{event.description}}</p>
+        </div>
+        <div>
+            <div class="row">
+                <h4 class="col col-50">Horario</h4>
+                <h4 class="col col-50">Valor de la entrada</h4>
+            </div>
+            <div class="row">
+                <p class="col col-50">{{event.startTime}} - {{event.endTime}}</p>
+                <p class="col col-50">$ 150</p>
+            </div>
+        </div>
+        <div>
+            <div class="row">
+                <h4>Consumicion</h4>
+            </div>
+            <div class="row">
+                <p>Si (Fernet, Campari, Gancia)</p>
+            </div>
+        </div>
+        <div id="map" data-tap-disabled="true"></div>
+        <div class="row">
+            <h4>Musica</h4>
+        </div>
+        <div class="row">
+            <button class="button button-small button-assertive ink">Cumbia</button>
+            <button class="button button-small button-positive ink">Reggae</button>
+        </div>
+    </ion-content>
+</ion-view>
