@@ -9,7 +9,7 @@ angular.module('users.service', ['ionic.utils', 'firebase', 'profile.service'])
         return $firebaseArray(ref.child('users'));
     }
 
-    function followers() {
+    function followers($scope) {
         // fetch a list of Mary's groups
         ref.child('users/' + uid + '/followers').on('child_added', function(snapshot) {
             // for each group, fetch the name and print it
@@ -20,11 +20,12 @@ angular.module('users.service', ['ionic.utils', 'firebase', 'profile.service'])
         });
     }
 
-    function following() {
+    function following($scope) {
         ref.child('users/' + uid + '/following').on('child_added', function(snapshot) {
             // for each group, fetch the name and print it
             var userKey = snapshot.key();
             ref.child('users/' + userKey).once('value', function(snapshot) {
+                $scope.users.push(snapshot);
                 console.log('I\'m following: ' + snapshot.val());
             });
         });

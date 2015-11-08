@@ -112,7 +112,7 @@ angular.module('swirl.controllers', ['swirl.services', 'ionic.utils', 'ionic-mat
         $ionicHistory.nextViewOptions({
             historyRoot: true
         });
-        $state.go('app.profile');
+        $state.go('app.events');
     }
 
     $scope.nextSlide = function() {

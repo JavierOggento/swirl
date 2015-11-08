@@ -6,18 +6,14 @@ angular.module('users.controller', ['firebase', 'users.service'])
     $scope.following = function() {
         /*$ionicTabsDelegate.select(0);
         $scope.users = [];*/
-        UsersService.following();
+        UsersService.following($scope);
     };
 
     $scope.followers = function() {
         /*$ionicTabsDelegate.select(1);
         $scope.users = [];*/
-        UsersService.followers();
+        UsersService.followers($scope);
     };
-
-    $scope.$on('userAdded', function(event, user) {
-        $scope.users.push(user);
-    });
 
     ionicMaterialInk.displayEffect();
 });
